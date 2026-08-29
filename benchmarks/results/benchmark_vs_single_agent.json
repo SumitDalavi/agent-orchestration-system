@@ -1,0 +1,16 @@
+{
+  "scenario": "Multi-agent Research Task (10 queries)",
+  "metrics": {
+    "single_agent": {
+      "execution_time_seconds": 145.2,
+      "cost_usd": 0.15,
+      "reliability_score": "70% (3 timeouts, full restart required)"
+    },
+    "orchestrated_system": {
+      "execution_time_seconds": 45.8,
+      "cost_usd": 0.16,
+      "reliability_score": "100% (3 timeouts recovered via checkpoint resume)"
+    }
+  },
+  "notes": "Orchestration allowed parallel execution of independent sub-tasks, reducing latency by ~68%. Cost is slightly higher due to state checkpointing overhead."
+}
