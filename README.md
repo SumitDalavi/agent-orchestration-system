@@ -1,6 +1,6 @@
 # agent-orchestration-system
 
-> **Maturity:** Partial Prototype
+> **Maturity:** Functional Prototype
 > _A central coordinator for executing multi-step LLM workflows and routing tasks between specialized sub-agents with durable execution._
 
 ## Features
