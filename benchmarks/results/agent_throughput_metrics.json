@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-08-29T14:00:49.740Z",
+  "environment": {
+    "os": "win32",
+    "cpu": "x64",
+    "node_version": "v24.19.0"
+  },
+  "fixture": "50 simulated agent tasks (150-250ms per task)",
+  "seed": 42,
+  "results": {
+    "single_agent_sequential_ms": 10453.71,
+    "multi_agent_parallel_ms": 248.51,
+    "throughput_improvement_ratio": 42.07,
+    "coordination_overhead_ms": 39.43
+  },
+  "command": "bash benchmarks/run.sh",
+  "notes": "Simulation based on mocked inference and tool execution latencies to demonstrate orchestration scaling limits."
+}
