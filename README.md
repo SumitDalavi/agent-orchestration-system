@@ -1,11 +1,11 @@
 # agent-orchestration-system
 
-[![Release](https://img.shields.io/github/v/release/SumitDalavi/agent-orchestration-system?color=blue&logo=github)](https://github.com/SumitDalavi/agent-orchestration-system/releases)
+[![CI Pipeline](https://github.com/SumitDalavi/agent-orchestration-system/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/SumitDalavi/agent-orchestration-system/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/SumitDalavi/agent-orchestration-system?color=0969da&label=release&logo=github)](https://github.com/SumitDalavi/agent-orchestration-system/releases)
 [![Release Workflow](https://github.com/SumitDalavi/agent-orchestration-system/actions/workflows/release.yml/badge.svg)](https://github.com/SumitDalavi/agent-orchestration-system/actions/workflows/release.yml)
-[![SBOM](https://img.shields.io/badge/SBOM-SPDX%20JSON-blueviolet?logo=spdx)](https://github.com/SumitDalavi/agent-orchestration-system/releases)
-
-[![Release](https://img.shields.io/github/v/release/SumitDalavi/agent-orchestration-system?color=blue&logo=github)](https://github.com/SumitDalavi/agent-orchestration-system/releases)
-[![SBOM](https://img.shields.io/badge/SBOM-SPDX%20JSON-blueviolet?logo=spdx)](https://github.com/SumitDalavi/agent-orchestration-system/releases)
+[![GHCR Container](https://img.shields.io/badge/ghcr.io-v0.2.0-blue?logo=docker&logoColor=white)](https://github.com/SumitDalavi/agent-orchestration-system/pkgs/container/agent-orchestration-system)
+[![SBOM](https://img.shields.io/badge/SBOM-SPDX%202.3-blueviolet?logo=spdx)](https://github.com/SumitDalavi/agent-orchestration-system/releases/tag/v0.2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 > **Maturity:** Functional Prototype
 > _A central coordinator for executing multi-step LLM workflows and routing tasks between specialized sub-agents with durable execution._
@@ -29,7 +29,6 @@ make test
 
 ## Architecture
 Please see the [Architecture Document](docs/architecture.md) for sequence diagrams and system design details.
-
 
 ## CI & Reliability Updates (August 2026)
 
