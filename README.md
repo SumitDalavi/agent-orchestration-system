@@ -1,4 +1,4 @@
-# agent-orchestration-system
+# Agent Orchestration System 🤖⚙️
 
 [![CI Pipeline](https://github.com/SumitDalavi/agent-orchestration-system/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/SumitDalavi/agent-orchestration-system/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/SumitDalavi/agent-orchestration-system?color=0969da&label=release&logo=github)](https://github.com/SumitDalavi/agent-orchestration-system/releases)
@@ -7,8 +7,7 @@
 [![SBOM](https://img.shields.io/badge/SBOM-SPDX%202.3-blueviolet?logo=spdx)](https://github.com/SumitDalavi/agent-orchestration-system/releases/tag/v0.2.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-> **Maturity:** Functional Prototype
-> _A central coordinator for executing multi-step LLM workflows and routing tasks between specialized sub-agents with durable execution._
+> A central coordinator for executing multi-step LLM workflows and routing tasks between specialized sub-agents with durable execution.
 
 ## Features
 - Fully automated workflow.
